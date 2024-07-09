@@ -327,7 +327,7 @@ function App() {
     setDashResponse(null);
 
     try {
-      const response = await fetch("http://127.0.0.1:7070/plotgeneration", {
+      const response = await fetch("https://dcm-backend-dashboard-jthp5ztqva-uc.a.run.app/plotgeneration", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
