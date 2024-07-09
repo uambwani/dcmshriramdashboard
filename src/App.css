@@ -1,0 +1,48 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  border: 2px solid black;
+}
+
+th,
+td {
+  padding: 12px 15px;
+  text-align: left;
+  /* border: 2px solid black; */
+}
+
+th {
+  background-color: #f3f4f6;
+  color: #333;
+  font-weight: bold;
+  border-bottom: 1px solid #ddd;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+tr {
+  border-bottom: 1px solid #ddd;
+}
+
+tr:nth-of-type(even) {
+  background-color: #f9f9f9;
+}
+
+/* tr:last-of-type {
+  border-bottom: 2px solid #009879;
+} */
+
+td {
+  color: #555;
+}
+
+.dataframe {
+  max-height: 450px;
+  overflow-y: auto;
+}
